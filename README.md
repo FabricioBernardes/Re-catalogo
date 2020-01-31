@@ -1,2 +1,2 @@
 # (Re)-catálogo
-(Re)catalogo de Zoólitos
+(Re)catálogo de Zoólitos
