@@ -1,2 +1,2 @@
 # (Re)-catálogo
-https://github.com/FabricioBernardes/Re-catalogo
+https://fabriciobernardes.github.io/Re-catalogo/
