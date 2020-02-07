@@ -117,24 +117,6 @@ margin-left: 270px;
     padding-top: 100px;
 }
 
-
-/*------------------------------------------------------------------------------------------*/
-#rodape{
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-}
-#rodape div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1000px;
-    height: 50px;
-}
-#rodape div p{
-    color: #fff;
-}
-
 /*------------------------------------------------------------------------------------------*/
 #mutilacoes{
     width: 1000px;
@@ -199,4 +181,80 @@ margin-left: 270px;
 #agradecimentos{
     width: 1000px;
     padding-top: 100px;
+}
+
+#formulario-expandido{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+#fecha-formulario{
+    display: block;
+    position: fixed;
+    left: 98%;
+    top: 2%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#fecha-formulario:hover{
+    color: rgb(150, 150, 150);
+}
+#conteudo-formulario{
+    display: block;
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+#header-formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+.section-formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+#imagens-formulario{
+    display: block;
+    flex-direction: row;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+#rodape{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+#rodape div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 50px;
+}
+#rodape div p{
+    color: #fff;
 }
