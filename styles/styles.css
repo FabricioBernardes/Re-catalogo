@@ -195,6 +195,10 @@ margin-left: 270px;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.9);
 }
+
+#formulario-expandido p {
+    font-weight: normal;
+}
 #fecha-formulario{
     display: block;
     position: fixed;
