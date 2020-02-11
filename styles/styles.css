@@ -208,7 +208,7 @@ margin-left: 270px;
 #fecha-formulario:hover{
     color: rgb(150, 150, 150);
 }
-#conteudo-formulario{
+#formulario-conteudo{
     display: block;
     position: fixed;
     left: 50%;
@@ -218,7 +218,7 @@ margin-left: 270px;
     background-color: #fff;
     overflow-y: scroll;
 }
-#header-formulario{
+#formulario-header{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -226,7 +226,11 @@ margin-left: 270px;
     margin: 20px;
     padding: 20px;
 }
-.section-formulario{
+#formulario-header-imagem{
+    height: 225px;
+    width: 225px;
+}
+.formulario-descricao1{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -234,9 +238,35 @@ margin-left: 270px;
     margin: 20px;
     padding: 20px;
 }
-#imagens-formulario{
+.formulario-descricao2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+.formulario-descricao3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+#formulario-imagens{
     display: block;
     flex-direction: row;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+.formulario-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: 1px black solid;
     margin: 20px;
     padding: 20px;

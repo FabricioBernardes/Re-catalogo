@@ -125,34 +125,34 @@
                     <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº1</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1CQO2pEAnbgsoKCI4zLwx3asxSa9jgtOn">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº2</p>
+                    <img onclick="abreFormulario(2)" src="https://docs.google.com/uc?id=1CQO2pEAnbgsoKCI4zLwx3asxSa9jgtOn">
+                    <p onclick="abreFormulario(2)" class="num-item" href="n1.htm">nº2</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1YowqJ72zxCY_V926EK8zZReIofRpBuQl">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">n3</p>
+                    <img onclick="abreFormulario(3)" src="https://docs.google.com/uc?id=1YowqJ72zxCY_V926EK8zZReIofRpBuQl">
+                    <p onclick="abreFormulario(3)" class="num-item" href="n1.htm">n3</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1gPPrCoDBlFSg1Z5tNhAIPkHDoJVQ8PbX">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº4</p>
+                    <img onclick="abreFormulario(4)" src="https://docs.google.com/uc?id=1gPPrCoDBlFSg1Z5tNhAIPkHDoJVQ8PbX">
+                    <p onclick="abreFormulario(5)" class="num-item" href="n1.htm">nº4</p>
                 </li>
 
 
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1DWp7GRvev1UzL13eoWSbyCuI_L731prF">
-                    <p class="num-item" href="n1.htm">nº5</p>
+                    <img onclick="abreFormulario(001)" src="https://docs.google.com/uc?id=1DWp7GRvev1UzL13eoWSbyCuI_L731prF">
+                    <p onclick="abreFormulario(001)" class="num-item" href="n1.htm">nº5</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1fZQcClPsnG6TiO7Re9KjZdfbFSw-VBzP">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº6</p>
+                    <img onclick="abreFormulario(001)" src="https://docs.google.com/uc?id=1fZQcClPsnG6TiO7Re9KjZdfbFSw-VBzP">
+                    <p onclick="abreFormulario(001)" class="num-item" href="n1.htm">nº6</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1_Pkz7wLGimRMILQsZN2FStrXXJxTXLJF">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº7</p>
+                    <img onclick="abreFormulario(001)" src="https://docs.google.com/uc?id=1_Pkz7wLGimRMILQsZN2FStrXXJxTXLJF">
+                    <p onclick="abreFormulario(001)" class="num-item" href="n1.htm">nº7</p>
                 </li>
                 <li>
-                    <img onclick="abreFormulario(1)" src="https://docs.google.com/uc?id=1tuuNGTWZ9es2OUuYQJ_nEs3WJVCdCDfW">
-                    <p onclick="abreFormulario(1)" class="num-item" href="n1.htm">nº8</p>
+                    <img onclick="abreFormulario(001)" src="https://docs.google.com/uc?id=1tuuNGTWZ9es2OUuYQJ_nEs3WJVCdCDfW">
+                    <p onclick="abreFormulario(001)" class="num-item" href="n1.htm">nº8</p>
                 </li>
             </ul>
 
@@ -303,62 +303,70 @@
 
         <div id="formulario-expandido">
             <span id="fecha-formulario" onclick="fechaFormulario()">X</span>
-            <div id="conteudo-formulario">
-                <header id="header-formulario">
-                    <h1>nº0</h1>
-                    <img src="img/lorem-picsum.jpg">
-                    <p>ex-Prous:</p>
+            <div id="formulario-conteudo">
+                <header id="formulario-header">
+                    <h1 id="formulario-header-identificador"></h1>
+                    <img id="formulario-header-imagem" src="">
+                    <p id="formulario-header-referencia"></p>
                 </header>
 
-                <section class="section-formulario">
-                    <p>bicho (espécie) - Último Paradeiro (nº no acervo)</p>
-                    <p>"Descrição decente da peça ou de algum comportamento do animal."</p>
-                    <p>(citação)</p>
+                <section class="formulario-descricao1">
+                    <h3>bicho (espécie)<h3>
+                    <p id="formulario-descricao1-especie"></p>
+
+                    <h3>Último Paradeiro</h3>
+                    <p id="formulario-descricao1-u-paradeiro"></p>
+
+                    <p id="formulario-descricao1-descricao"></p>
+
+                    <h3>Referências</h3>
+                    <p id="formulario-descricao1-referencia"></p>
                 </section>
 
-                <section class="section-formulario">
-                    <h2>Conservação, Técnicas Escultóricas e Traços Notórios</h2>
-                    <p>"txt</p>
-                    <h2>Tipologia Proussiana</h2>
-                    <p>txt</p>
+                <section class="formulario-descricao2">
+                    <h3>Conservação, Técnicas Escultóricas e Traços Notórios</h2>
+                    <p id="formulario-descricao2-conservacao"></p>
+
+                    <h3>Tipologia Proussiana</h2>
+                    <p id="formulario-descricao2-tipologia"></p>
                 </section>
 
-                <section class="section-formulario">
+                <section class="formulario-descricao3">
                     <h3>Outras Citações</h3>
-                    <p>Sobrenome, Ano, p. Est./Pr./Ilu./nº da peça no trabalho; Prous, 1974a, p. X. nº antigo do catálogo.</p>
+                    <p id="formulario-descricao3-citacoes"></p>
 
                     <h3>Estado/Região</h3>
-                    <p>UF</p>
+                    <p id="formulario-descricao3-regiao"></p>
 
                     <h3>Sítio/Município/Localidade</h3>
-                    <p>"txt"</p>
+                    <p id="formulario-descricao3-sitio"></p>
 
                     <h3>Contexto Arqueológico</h3>
-                    <p>"txt"</p>
+                    <p id="formulario-descricao3-contexto"></p>
 
-                    <h3>Paradeiro Atual e Anteriores</h3>
-                    <p>txt (nº no acervo).</p>
+                    <h3>Paradeiro Anterior</h3>
+                    <p id="formulario-descricao3-a-paradeiro"></p>
 
                     <h3>Matéria Prima</h3>
-                    <p>"txt"</p>
+                    <p id="formulario-descricao3-materia"></p>
 
                     <h3>Dimensões</h3>
-                    <p>"txt"</p>
+                    <p id="formulario-descricao3-dimensoes"></p>
 
                     <h3>Cavidade</h3>
-                    <p>"txt"</p>
+                    <p id="formulario-descricao3-cavidade"></p>
                 </section>
 
-                <section id="imagens-formulario">
+                <section id="formulario-imagens">
                     <h1>Galeria de Imagens</h1>
-                    <img src="img/lorem-picsum.jpg">
-                    <img src="img/lorem-picsum.jpg">
-                    <img src="img/lorem-picsum.jpg">
-                    <img src="img/lorem-picsum.jpg">
-                    <img src="img/lorem-picsum.jpg">
-                    <img src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
+                    <img id="formulario-imagens-item" src="img/lorem-picsum.jpg">
                 </section>
-                <footer>
+                <footer id="formulario-footer">
                     <p>Colaboraram:</p>
                 </footer>
 
@@ -380,6 +388,6 @@
 
 
 
-    <script src="scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
