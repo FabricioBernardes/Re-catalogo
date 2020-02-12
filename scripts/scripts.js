@@ -1,4 +1,5 @@
 var formularioExpandido = document.getElementById("formulario-expandido");
+var imagemAmpliada = document.getElementById("imagem-ampliada");
 var body = document.getElementById("body");
 
 function abreFormulario (n) {
@@ -15,7 +16,7 @@ function fechaFormulario(){
 
 function insereImagens (nimagens) {
     for (var i=0; i<nimagens; i++){
-        document.getElementById("formulario-imagens-container").innerHTML += ('<img class="formulario-imagens-item" src="img/lorem-picsum.jpg">');
+        document.getElementById("formulario-imagens-container").innerHTML += ('<img class="formulario-imagens-item" onclick="ampliaImagem(' + i + ')" src="img/lorem-picsum.jpg">');
     }
 }
 
@@ -62,4 +63,24 @@ function insereDados (x) {
         insereImagens(nimagens);
         carregaImagens(nimagens, id);
     })
+}
+
+function ampliaImagem (i){
+    imagemAmpliada.style.display = "block";
+
+    function carregaImagem (x) {
+        fetch ('dados.json')
+        .then(function(response){
+            return response.json()
+        })
+        .then(function(data){
+
+            document.getElementById("imagem-ampliada-item").src = (data["id" + x].formularioImagensItem[x]);
+        })
+    }
+    carregaImagem(i)
+}
+
+function fechaImagem(){
+    imagemAmpliada.style.display ="none";
 }
