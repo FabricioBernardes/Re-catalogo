@@ -266,6 +266,9 @@ margin-left: 270px;
     margin: 20px;
     padding: 20px;
 }
+.formulario-imagens-item{
+    max-width: 500px;
+}
 
 .formulario-section{
     display: flex;
